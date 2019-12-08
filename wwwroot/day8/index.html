@@ -1,0 +1,25 @@
+<html>
+    <style>
+        ul {
+            list-style-type:none;
+        }
+        ul#theImage {
+            display:grid;
+            grid-template-columns: repeat(25,1fr);
+        }
+        .color-0 {
+            background-color:#000;
+        }
+        .color-1 {
+            background-color: #FFF;
+        }
+    </style>
+<body>
+        <ul id="theImage"></ul>
+        <ul id="instructions"></ul>
+        Prog: <input type="text" id="data" value=""/><br/>
+        <a href="javascript:part1();">Go Part 1</a> | 
+        <a href="javascript:part2();">Go Part 2</a>
+        <script type="text/javascript" src="functions.js"></script>
+</body>
+</html>
